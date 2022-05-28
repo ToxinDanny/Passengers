@@ -1,0 +1,20 @@
+Passengers:
+
+L'applicazione deve tracciare i passegeri su un aereo.
+Per fare questo si dovrà utilizzare una WebApi.
+
+CA:
+	- La WebApi dovrà essere più compliant possibile a REST
+	- Le chiamate agli endpoint dovranno essere compliant al protocollo HTTP
+	- I dati dovranno essere salvati su file o in-memory	
+	- Gli aerei hanno 3 classi: Prima, Business, Economy
+	- Il primo passeggero che compra un biglietto per la prima classe avrà uno sconto del 30%
+
+Glossario:
+	- Passeggero -> persona che ha acquistato un biglietto
+
+Vendita biglietto:
+1) Verificare disponibilità dei posti a priori in base alle scelte d'acquisto
+2) Registrare a sistema un passeggero
+3) Verificare possibilità sconto 30% in base alle scelte d'acquisto
+4) Stampare un biglietto legato a un passeggero e a un volo, in base alle scelte d'acquisto
